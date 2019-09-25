@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My-tip calculator </title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,500i,700i&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="tip__calc__container">
+      <div class="container__text">
+        <label for="bill__amount">Please enter your bill below:</label>
+        <input type="number" id="bill__amount" placeholder="Enter your Bill here">
+      </div>
+      <div class="container__text">
+        <label for="tip__percentage">How much did you like our services</label>
+        <select id="tip__percentage">
+          <option value="30">Excellent ! 30 percent</option>
+          <option value="20">It was good 20 percent</option>
+          <option value="15">It was not that satisfactory 15%</option>
+          <option value="5">Poor 5%</option>
+        </select>
+      </div>
+      <div class="container__text">
+        <label for="customer__number">Enter number of people sharing the bill?</label>
+        <input type="number" id="customer__number" placeholder="Enter number of shareholder's here">
+      </div>
+      <div class="container__text">
+
+      </div>
+
+      <button class="submit__button">Calculate</button>
+    </div>
+    <div class="display__text">
+      Your tip amount will appear here.
+
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
